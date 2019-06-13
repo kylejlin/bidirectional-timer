@@ -3,12 +3,12 @@
   "name": "Bidirectional Timer",
   "icons": [
     {
-      "src": "touch_icon_512",
+      "src": "touch_icon_512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "touch_icon_192",
+      "src": "touch_icon_192.png",
       "sizes": "192x192",
       "type": "image/png"
     }
