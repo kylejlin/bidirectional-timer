@@ -96,7 +96,7 @@ export default class App extends React.Component {
     const sign = time < 0 ? "-" : "+";
     return (
       <div className={`App App--${this.color()}`}>
-        <div className="Time Time--stopped" onClick={this.resetTimer}>
+        <div className="Time Time--stopped">
           {sign}
           {timeString(stopTime)}
         </div>
