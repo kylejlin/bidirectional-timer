@@ -10,7 +10,7 @@ When you click the screen, the timer starts going in the negative direction. If 
 
 You can pause and unpause the timer.
 
-## Warning for developers
+## Warning for contributing developers
 
 This is just an implementation detail, so if you just want to use the product, you can safely ignore the following.
 
