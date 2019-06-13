@@ -1,33 +1,117 @@
 .App {
   text-align: center;
+  height: 100%;
+  line-height: 100vh;
+  font-size: 2em;
+
+  --button-size: calc(0.15 * var(--minor-axis));
+  --label-margin: calc(0.08 * var(--minor-axis));
+  --label-child-margin: calc(0.02 * var(--minor-axis));
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.App--white {
+  background-color: #eee;
+  color: #222;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App--black {
+  background-color: #222;
+  color: #eee;
 }
 
-.App-link {
-  color: #61dafb;
+.Time--stopped {
+  color: #a00;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.OpenPauseMenuButtonContainer,
+.PauseMenu,
+.ResetStoppedTimerButtonContainer {
+  position: absolute;
+  line-height: normal;
+  top: 1vh;
+  right: 1vw;
+  width: var(--button-size);
+}
+
+.CircleButton {
+  width: var(--button-size);
+  height: var(--button-size);
+  border-radius: var(--button-size);
+  outline: none;
+  font-size: calc(0.5 * var(--button-size));
+}
+
+.App--white .CircleButton {
+  border: 1px solid #d1d1d1;
+  background-color: #fff;
+  color: #222;
+}
+
+.App--black .CircleButton {
+  border: 1px solid #333;
+  background-color: #111;
+  color: #eee;
+}
+
+.CircleButton--small-text {
+  font-size: calc(0.3 * var(--button-size));
+}
+
+.TimerMenu {
+  position: absolute;
+  line-height: normal;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App--white .TimerMenu {
+  background-color: #eee;
+  color: #222;
+}
+
+.App--black .TimerMenu {
+  background-color: #222;
+  color: #eee;
+}
+
+.TimerMenu label,
+.TimerMenu span {
+  font-size: 0.6em;
+  display: block;
+  margin: var(--label-margin);
+}
+
+.TimerMenu label input,
+.TimerMenu span button {
+  margin: var(--label-child-margin);
+}
+
+.TimerMenu label input {
+  font-size: 1em;
+  padding-left: 1vw;
+}
+
+.App--white .TimerMenu label input {
+  border: 1px solid #d1d1d1;
+  background-color: #fff;
+  color: #222;
+}
+
+.App--black .TimerMenu label input {
+  border: 1px solid #333;
+  background-color: #111;
+  color: #eee;
+}
+
+.CloseTimerMenuButtonContainer {
+  position: absolute;
+  top: 1vh;
+  right: 1vw;
+}
+
+.CloseTimerMenuButtonContainer .CircleButton {
+  border: 1px solid #ddd;
+  background-color: #800;
+  color: #eee;
 }
