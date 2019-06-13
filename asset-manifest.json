@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bidirectional-timer/static/css/main.f96837ac.chunk.css",
+    "main.css": "/bidirectional-timer/static/css/main.af343938.chunk.css",
     "main.js": "/bidirectional-timer/static/js/main.1957b899.chunk.js",
     "main.js.map": "/bidirectional-timer/static/js/main.1957b899.chunk.js.map",
     "runtime~main.js": "/bidirectional-timer/static/js/runtime~main.6242ea5a.js",
@@ -8,8 +8,8 @@
     "static/js/2.26ba37d3.chunk.js": "/bidirectional-timer/static/js/2.26ba37d3.chunk.js",
     "static/js/2.26ba37d3.chunk.js.map": "/bidirectional-timer/static/js/2.26ba37d3.chunk.js.map",
     "index.html": "/bidirectional-timer/index.html",
-    "precache-manifest.944884bccc5f0b4e4c3e03c9fe05dd85.js": "/bidirectional-timer/precache-manifest.944884bccc5f0b4e4c3e03c9fe05dd85.js",
+    "precache-manifest.07de125955b5363ab664f4ab1a38ccf8.js": "/bidirectional-timer/precache-manifest.07de125955b5363ab664f4ab1a38ccf8.js",
     "service-worker.js": "/bidirectional-timer/service-worker.js",
-    "static/css/main.f96837ac.chunk.css.map": "/bidirectional-timer/static/css/main.f96837ac.chunk.css.map"
+    "static/css/main.af343938.chunk.css.map": "/bidirectional-timer/static/css/main.af343938.chunk.css.map"
   }
 }
