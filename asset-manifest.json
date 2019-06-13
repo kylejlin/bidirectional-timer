@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bidirectional-timer/static/css/main.af343938.chunk.css",
-    "main.js": "/bidirectional-timer/static/js/main.1957b899.chunk.js",
-    "main.js.map": "/bidirectional-timer/static/js/main.1957b899.chunk.js.map",
+    "main.js": "/bidirectional-timer/static/js/main.d67428ae.chunk.js",
+    "main.js.map": "/bidirectional-timer/static/js/main.d67428ae.chunk.js.map",
     "runtime~main.js": "/bidirectional-timer/static/js/runtime~main.6242ea5a.js",
     "runtime~main.js.map": "/bidirectional-timer/static/js/runtime~main.6242ea5a.js.map",
     "static/js/2.26ba37d3.chunk.js": "/bidirectional-timer/static/js/2.26ba37d3.chunk.js",
     "static/js/2.26ba37d3.chunk.js.map": "/bidirectional-timer/static/js/2.26ba37d3.chunk.js.map",
     "index.html": "/bidirectional-timer/index.html",
-    "precache-manifest.07de125955b5363ab664f4ab1a38ccf8.js": "/bidirectional-timer/precache-manifest.07de125955b5363ab664f4ab1a38ccf8.js",
+    "precache-manifest.72efcd3061c1d7880d41f8f566eaae82.js": "/bidirectional-timer/precache-manifest.72efcd3061c1d7880d41f8f566eaae82.js",
     "service-worker.js": "/bidirectional-timer/service-worker.js",
     "static/css/main.af343938.chunk.css.map": "/bidirectional-timer/static/css/main.af343938.chunk.css.map"
   }
