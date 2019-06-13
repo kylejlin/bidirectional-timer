@@ -2,9 +2,11 @@
   text-align: center;
   height: 100%;
   line-height: 100vh;
-  font-size: 2em;
 
+  --time-font-size: calc(0.2 * var(--minor-axis));
+  --label-font-size: calc(0.07 * var(--minor-axis));
   --button-size: calc(0.15 * var(--minor-axis));
+  --button-margin: calc(0.01 * var(--minor-axis));
   --label-margin: calc(0.08 * var(--minor-axis));
   --label-child-margin: calc(0.02 * var(--minor-axis));
 }
@@ -19,6 +21,10 @@
   color: #eee;
 }
 
+.Time {
+  font-size: var(--time-font-size);
+}
+
 .Time--stopped {
   color: #a00;
 }
@@ -30,14 +36,16 @@
   line-height: normal;
   top: 1vh;
   right: 1vw;
-  width: var(--button-size);
+  width: calc(var(--button-size) + 2 * var(--button-margin));
 }
 
 .CircleButton {
   width: var(--button-size);
   height: var(--button-size);
   border-radius: var(--button-size);
+  margin: var(--button-margin);
   outline: none;
+  display: block;
   font-size: calc(0.5 * var(--button-size));
 }
 
@@ -63,6 +71,7 @@
   top: 0;
   width: 100vw;
   height: 100vh;
+  text-align: left;
 }
 
 .App--white .TimerMenu {
@@ -77,19 +86,20 @@
 
 .TimerMenu label,
 .TimerMenu span {
-  font-size: 0.6em;
+  font-size: var(--label-font-size);
   display: block;
   margin: var(--label-margin);
 }
 
 .TimerMenu label input,
-.TimerMenu span button {
+.TimerMenu span .CircleButton {
+  display: inline;
   margin: var(--label-child-margin);
 }
 
 .TimerMenu label input {
-  font-size: 1em;
   padding-left: 1vw;
+  font-size: var(--label-font-size);
 }
 
 .App--white .TimerMenu label input {
